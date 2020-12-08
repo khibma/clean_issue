@@ -1,0 +1,27 @@
+{
+  "name": "clean",
+  "type": "widget",
+  "version": "1.2.0",
+  "exbVersion": "1.2.0",
+  "author": "Esri Canada - Kevin Hibma",
+  "description": ".",
+  "copyright": "",
+  "dependency": "jimu-arcgis",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {},
+  "translatedLocales": [
+    "en",
+    "fr"
+  ],
+  "defaultSize": {
+    "width": 400,
+    "height": 600
+  },
+  "messageActions": [
+    {
+      "name": "query",
+      "label": "Query by extent",
+      "uri": "runtime/actions/query-actions"
+    }
+  ]
+}
